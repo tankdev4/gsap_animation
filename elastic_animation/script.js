@@ -6,7 +6,7 @@ gsap.to("#box2 h1",{
     scrollTrigger:{
         trigger:"#box2",
         scroller:"body",
-        markers:true,
+        // markers:true, //show position
         start:"top 0%",
         end:"top -250%",
         scrub:2,
