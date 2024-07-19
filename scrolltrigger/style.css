@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background: #222;
+}
+
+#page1{
+    height: 100%;
+    width: 100%;
+    background: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    background: rgb(173, 226, 200);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page3{
+    height: 100%;
+    width: 100%;
+    background: rgb(167, 180, 235);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+#page4{
+    height: 100%;
+    width: 100%;
+    background: rgb(219, 233, 167);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box1{
+    height: 100%;
+    width: 100%;
+    background: rgb(43, 40, 28);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box2{
+    height: 100%;
+    width: 100%;
+    background: rgb(26, 38, 46);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box3{
+    height: 100%;
+    width: 100%;
+    background: rgb(187, 144, 243);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 80px;
+    position: relative;
+    background-color: aquamarine;
+    padding: 10px;
+}
+h2{
+    font-size: 60px;
+    position: relative;
+    background-color: rgb(76, 0, 255);
+}
+
+#box{
+    height: 300px;
+    width: 300px;
+    background: rgb(27, 25, 25);
+}

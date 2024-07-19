@@ -1,0 +1,47 @@
+ /* inspiration animation site */
+ /* https://wethinkelastic.com/ */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+#box1{
+    height: 100%;
+    width: 100%;
+    background: rgb(43, 40, 28);   
+}
+
+#box2{
+    height: 100%;
+    width: 100%;
+    background: rgb(26, 38, 46);    
+}
+#box2 h1{
+    font-size: min(51vw,82vh);
+    font-weight: bold;
+    text-transform: uppercase;
+    
+    /* text-indent: -4vw;
+    letter-spacing: -2vw;
+    line-height: 0.8;
+    padding: 0 8vw;s    
+    white-space: nowrap; */
+}
+
+#box3{
+    height: 100%;
+    width: 100%;
+    background: rgb(187, 144, 243);    
+}
+
+
