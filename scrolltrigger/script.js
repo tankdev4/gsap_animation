@@ -23,7 +23,7 @@ gsap.from("#page2 #box",{
     scrollTrigger:{
         trigger:"#page2 #box",
         scroller:"body",
-        markers:true,
+        // markers:true,
         start:"top 60%"
     }
 })
@@ -35,7 +35,7 @@ gsap.from("#page3 h1",{
     scrollTrigger:{
         trigger:"#page3 h1",
         scroller:"body",
-        markers:true,
+        // markers:true,
         start:"top 50%"
     }
 })
@@ -47,7 +47,7 @@ gsap.from("#page3 h2",{
     scrollTrigger:{
         trigger:"#page3 h2",
         scroller:"body",
-        markers:true,
+        // markers:true,
         start:"top 50%"
     }
 })
@@ -60,7 +60,7 @@ gsap.from("#page4 #box",{
     scrollTrigger:{
         trigger:"#page4 #box",
         scroller:"body",
-        markers:true,
+        // markers:true,
         start:"top 60%",
         end:"end 10%",
         // scrub:true //scroll up down to animation infinite
