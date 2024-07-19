@@ -18,9 +18,18 @@ body{
 #box1{
     height: 100%;
     width: 100%;
-    background: #08D9D6;   
+    background: #08D9D6;
+    color: #252A34;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
+h2{
+    font-size: 60px;
+    font-weight: 500;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
 #box2{
     height: 100%;
     width: 100%;
@@ -40,7 +49,11 @@ body{
 #box3{
     height: 100%;
     width: 100%;
-    background: #FF2E63;    
+    background: #FF2E63;  
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
 }
 
 
